@@ -1,0 +1,19 @@
+package selfProgramming;
+
+public class Casting {
+
+	public static void main(String[] args) {
+		// Casting technique is the most powerful and dangerous conversion
+		// Widening and narrowing conversions can be accomplished by explicitly casting a value
+		// To cast, the type is put in parentheses in front of the value being converted
+
+		int total = 50;
+		float result1 =  total / 6; 		// In this case, float is the one being casted
+		float result2 = (float) total / 6;
+		System.out.println("The result without cast is " + result1);
+		System.out.println("The result with cast is " + result2);
+		
+		
+	}
+
+}
