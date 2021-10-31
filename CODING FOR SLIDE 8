@@ -1,0 +1,13 @@
+package selfProgramming;
+
+public class Promotion {
+
+	public static void main(String[] args) {
+		// Promotion happens automatically when operators in expressions convert their operands
+		int count = 12;
+		double sum = 590.57;
+		double result = sum / count;
+		System.out.printf("The result is : %.2f" ,result);
+	}
+
+}
