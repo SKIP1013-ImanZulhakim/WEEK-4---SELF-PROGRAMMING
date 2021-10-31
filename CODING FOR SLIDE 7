@@ -1,0 +1,16 @@
+package selfProgramming;
+
+public class AssignmentConversion {
+
+	public static void main(String[] args) {
+		// Assignment conversion occurs when a value of one type is assigned to a variable of another
+		// example
+		
+		int dollars = 20;
+		double money = dollars;
+		System.out.println("Money is " + money);
+		System.out.println("Dollar is " + dollars);
+
+	}
+
+}
