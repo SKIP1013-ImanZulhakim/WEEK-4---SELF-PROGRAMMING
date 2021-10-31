@@ -1,0 +1,26 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class GasMileage {
+
+	public static void main(String[] args) {
+		// compute fuel efficiency based  on values entered by user
+		
+		Scanner sc = new Scanner (System.in);
+		int miles;
+		double gallons, mpg;
+		
+		System.out.println("Please enter the number of miles : ");
+		miles = sc.nextInt();
+		
+		System.out.println("Please enter the number of gallons : ");
+		gallons = sc.nextDouble();
+		
+		mpg = miles/gallons;
+		
+		System.out.printf("The fuel effeciency is %.2f " , mpg);		
+		
+	}
+
+}
