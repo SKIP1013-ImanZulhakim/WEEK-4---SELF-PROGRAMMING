@@ -1,0 +1,63 @@
+package selfProgramming;
+
+public class MathMethod {
+
+	public static void main(String[] args) {
+		
+		
+		//Mathematical Method in JAVA
+		double    a = 1.0;
+		double    b = 2.0;
+		double    c = 3.0;
+		double x = 2.0;
+		int    y = 3;
+		
+		// ex of quadratic formula
+		double quad    = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+		
+		// ex of square root
+		double sqroot  = Math.sqrt(x);
+		
+		// ex of x  power of y
+		double power   = Math.pow(x, y);
+		
+		//ex of exponential of x
+		double expo    = Math.exp(x);
+		
+		// ex of natural log
+		double lognat  = Math.log(x);
+		
+		//ex of sin,cosine,tangent where x is in radian
+		double sin     = Math.sin(x);
+		double cosine  = Math.cos(x);
+		double tangent = Math.tan(x);
+		
+		
+		// ex of round number of the nearest int to x
+		double round   = Math.round(x);
+		
+		// ex of min and max
+		double min     = Math.min(x, y);
+		double max     = Math.max(x, y);
+		
+		// Output for the above formula
+		System.out.println("Output for quadratic formula is " + quad);
+		System.out.println("Output for square root is "+ sqroot);
+		System.out.println("Output for x power of y is " + power);
+		System.out.println("Output for exponent of x is " + expo);
+		System.out.println("Output for natural log of x is " + lognat);
+		System.out.println("Output for sin where x is radian is " + sin);
+		System.out.println("Output for cos where x is radian is " + cosine);
+		System.out.println("Output for tangent where x is radian is " + tangent);
+		System.out.println("Output for the round number for integer nearest to x is " + round);
+		System.out.println("Output for minimum of x is " + min);
+		System.out.println("Output for  of x is " + max);
+		
+		
+		
+		
+		
+
+	}
+
+}
