@@ -1,0 +1,4 @@
+Before swapping : a, b = 15, 27
+After swapping : a, b = 27, 15
+Before swapping : c , d = 10, 20
+After swapping : c, d = 20, 10
