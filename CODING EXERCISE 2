@@ -1,0 +1,23 @@
+package selfProgramming;
+/*  Write a Java program that takes two numbers as input and display the product of two numbers :
+	Input first number: 25
+	Input second number: 5
+	Expected Output :
+	125
+*/
+import java.util.Scanner;
+public class ex2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("This Java program will prompt the user to input two integer and calculate its product. ");
+		System.out.println("Please enter the first number : ");
+		int num1 = sc.nextInt();
+		System.out.println("Please enter the second number : ");
+		int num2 = sc.nextInt();
+		
+		int product = num1*num2;
+		System.out.println("The product of the two number is " + product);
+	}
+
+}
