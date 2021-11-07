@@ -1,3 +1,10 @@
+Input first integer: 25
+Input second integer: 39
+25 != 39
+25 < 39
+25 <= 39
+
+
 Input first integer: 20
 Input second integer: 20
 20 == 20
