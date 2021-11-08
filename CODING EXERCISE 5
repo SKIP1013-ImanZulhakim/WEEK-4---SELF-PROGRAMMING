@@ -1,0 +1,56 @@
+package selfProgramming;
+
+public class javaOperator {
+
+	public static void main(String[] args) {
+		
+	    //java assignment operators
+	    System.out.println("\nASSIGNMENT OPERATOR");
+	    final int X=10;
+	    int x1;
+	    int y=5;
+	    System.out.println("X1=" + X);
+	    System.out.println("y=" + y+ "\n");
+	    
+	    //+=
+	    System.out.println("\"operator x1 += y\"");
+	    x1 = X+ y;  
+	    System.out.println(x1);
+	    
+	    //-=
+	    System.out.println("\"operator x1 -= y\"");
+	    x1 = X-y;
+	    System.out.println(X);
+	    
+	    //*=
+	    System.out.println("\"operator x1 *= y\"");
+	    x1=  X* y;
+	    System.out.println(X);
+	    
+	    ///=
+	    System.out.println("\"operator x1 /= y\""); // for\\
+	    x1 = X / y;
+	    System.out.println(X);
+	    
+	    //%=
+	    System.out.println("\"operator x1 %= y\"");
+	    x1 = X % y;  
+	    System.out.println(X);
+	    
+	    //&=
+	    System.out.println("\"operator x1 &= y\"");
+	    x1 = X & y;
+	    System.out.println(X);
+	    
+	    //|=
+	    System.out.println("\"operator x1 |= y\"");
+	    x1 = X| y;
+	    System.out.println(X);
+	    
+	    //^=
+	    System.out.println("\"operator x1 ^= y\""); // for\\
+	    x1= X ^ y;
+	    System.out.println(X);
+	}
+
+}
