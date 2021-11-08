@@ -1,0 +1,21 @@
+
+ASSIGNMENT OPERATOR
+X1=10
+y=5
+
+"operator x1 += y"
+15
+"operator x1 -= y"
+10
+"operator x1 *= y"
+10
+"operator x1 /= y"
+10
+"operator x1 %= y"
+10
+"operator x1 &= y"
+10
+"operator x1 |= y"
+10
+"operator x1 ^= y"
+10
