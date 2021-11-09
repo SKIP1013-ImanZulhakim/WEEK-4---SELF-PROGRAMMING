@@ -1,0 +1,28 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class ex4 { 
+	
+ public static void main(String[] args) {
+	 	// declare object as sc
+        Scanner sc = new Scanner(System.in);
+        
+        //prompt user to input integer
+        System.out.print("Input an integer: ");
+        int n = sc.nextInt();
+        
+        //sum value will output here after being returned to main
+        System.out.println("The sum of the digits is: " + sumDigits(n));
+
+    }
+
+    public static int sumDigits(int n) {
+        int sum = 0;
+        while (n != 0) {
+            sum += n % 10;
+            n /= 10;
+        }
+        return sum;
+    }
+}
